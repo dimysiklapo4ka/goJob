@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+    <TextView
+        android:id="@+id/tv_register_your_self"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="40sp"
+        android:text="@string/register_your_self"
+        android:gravity="center_horizontal"
+        android:layout_weight="0"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="1">
+
+
+            <LinearLayout
+                android:id="@+id/standard_passport"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:layout_margin="4dp"
+                android:orientation="vertical"
+                android:background="@drawable/customborder">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Биометрический паспорт"
+                    android:textSize="16dp"
+                    android:gravity="center_horizontal"/>
+
+               <LinearLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="match_parent"
+                   android:orientation="horizontal"
+                   android:layout_weight="2">
+
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:text="20 Дней\n\t\tрабочих "
+                       android:textSize="16dp"
+                       android:layout_weight="2"/>
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:layout_weight="2"
+                       android:textSize="16dp"
+                       android:text="557,32 ГРН"
+                       android:gravity="right"/>
+               </LinearLayout>
+
+                <ImageButton
+                    android:id="@+id/bt_for_registration_your_self"
+                    android:layout_width="47dp"
+                    android:layout_height="48dp"
+                    android:layout_gravity="center_horizontal"
+                    app:srcCompat="@drawable/b_ok"
+                    android:background="@null"
+                    android:scaleType="centerCrop"/>
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/fast_passport"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="4dp"
+                android:layout_weight="2"
+                android:orientation="vertical"
+                android:background="@drawable/customborder">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Биометрический паспорт"
+                    android:textSize="16dp"
+                    android:gravity="center_horizontal"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:layout_weight="2">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="7 Дней\n\t\tрабочих "
+                        android:textSize="16dp"
+                        android:layout_weight="2"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:textSize="16dp"
+                        android:text="810,32 ГРН"
+                        android:gravity="right"/>
+                </LinearLayout>
+
+                <ImageButton
+                    android:id="@+id/bt_for_registration_your_self_two"
+                    android:layout_width="47dp"
+                    android:layout_height="48dp"
+                    android:layout_gravity="center_horizontal"
+                    app:srcCompat="@drawable/b_ok"
+                    android:background="@null"
+                    android:scaleType="centerCrop"/>
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/child_passport"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="4dp"
+                android:layout_weight="2"
+                android:orientation="vertical"
+                android:background="@drawable/customborder">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Детский паспорт"
+                    android:textSize="16dp"
+                    android:gravity="center_horizontal"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:layout_weight="2">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="20 Дней\n\t\tрабочих "
+                        android:layout_weight="2"
+                        android:textSize="16dp"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:text="557,32 ГРН"
+                        android:gravity="right"
+                        android:textSize="16dp"/>
+                </LinearLayout>
+
+                <ImageButton
+                    android:id="@+id/bt_for_registration_your_self_three"
+                    android:layout_width="47dp"
+                    android:layout_height="48dp"
+                    android:layout_gravity="center_horizontal"
+                    app:srcCompat="@drawable/b_ok"
+                    android:background="@null"
+                    android:scaleType="centerCrop"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+
+</LinearLayout>

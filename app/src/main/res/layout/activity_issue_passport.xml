@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/tv_issue_standart"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/issue_for_20_days"
+            android:textSize="40dp" />
+
+        <TextView
+            android:id="@+id/tv_cost_standart"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/cost_557_32_grn"
+            android:textSize="40dp" />
+        <Button
+            android:id="@+id/bt_go_standatr"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/go"
+            android:onClick="createStandart"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/tv_issue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/issue_for_7_days"
+            android:textSize="40dp" />
+
+        <TextView
+            android:id="@+id/tv_cost"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/cost_810_32_grn"
+            android:textSize="40dp" />
+        <Button
+            android:id="@+id/bt_go"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/go"
+            android:onClick="createFast"/>
+    </LinearLayout>
+
+
+</LinearLayout>

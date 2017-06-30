@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="ua.init.max.autorizate.rolesRoma.CurrentStatusActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/bt_bt_list_of_documents"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/top_left_quadrant"
+            android:hapticFeedbackEnabled="false"
+            android:text="@string/for_I_do_not_have_foreign_passport"
+            android:textAlignment="center" />
+
+        <Button
+            android:id="@+id/bt_I_am_already_in_poland"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/bottom_left_quadrant"
+            android:hapticFeedbackEnabled="false"
+            android:text="@string/for_I_am_already_in_poland"
+            android:textAlignment="center" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/bt_I_do_not_have_work_visa"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/top_right_quadrant"
+            android:hapticFeedbackEnabled="false"
+            android:text="@string/for_I_do_not_have_work_visa"
+            android:textAlignment="center" />
+
+        <Button
+            android:id="@+id/bt_I_have_no_job"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/bottom_right_quadrant"
+            android:hapticFeedbackEnabled="false"
+            android:text="@string/for_I_have_no_job"
+            android:textAlignment="center" />
+    </LinearLayout>
+</LinearLayout>

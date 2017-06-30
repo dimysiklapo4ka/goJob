@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.roman.epic1.VisaD05Activity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/bt_list_of_documents"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/top_left_quadrant"
+            android:hapticFeedbackEnabled="false"
+            android:text="@string/for_list_of_documents"
+            android:textAlignment="center" />
+
+        <Button
+            android:id="@+id/bt_nearest_agents"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/top_right_quadrant"
+            android:hapticFeedbackEnabled="false"
+            android:text="@string/for_nearest_agents"
+            android:textAlignment="center" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/bt_appoint_admission_date"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/bottom_left_quadrant"
+            android:hapticFeedbackEnabled="false"
+            android:text="@string/for_appoint_admission_date"
+            android:textAlignment="center" />
+
+        <Button
+            android:id="@+id/bt_find_a_job_with_a_free_invitation"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/bottom_right_quadrant"
+            android:hapticFeedbackEnabled="false"
+            android:text="@string/for_find_a_job_with_a_free_invitation"
+            android:textAlignment="center" />
+    </LinearLayout>
+</LinearLayout>

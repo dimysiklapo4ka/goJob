@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/named"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/issue_for_20_days"
+            android:layout_weight="1"/>
+        <TextView
+            android:id="@+id/tv_cost"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/cost_557_32_grn"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+
+   <RadioButton
+       android:id="@+id/origin_passport"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_weight="1"
+       android:text="@string/passport_origin"
+       android:textSize="25dp"/>
+    <RadioButton
+        android:id="@+id/copy_password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/ukraine_passport_copy"
+        android:textSize="25dp"/>
+    <RadioButton
+        android:id="@+id/inn_origin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/individual_nalog_number_origin"
+        android:textSize="25dp"/>
+    <RadioButton
+        android:id="@+id/inn_copy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/individual_nalog_number_copy"
+        android:textSize="25dp"/>
+    <RadioButton
+        android:id="@+id/old_password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/old_passpot_if_you_have"
+        android:textSize="25dp"/>
+    <RadioButton
+        android:id="@+id/reciept_of_payment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/reciept_of_payment_from_bank_n_wet_seal"
+        android:textSize="25dp"/>
+    <RadioButton
+        android:id="@+id/certificate_from_the_military_registration_and_enlistment_office"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Certificate from the enlistment office\n(only for men younger 45)"
+        android:textSize="25dp"/>
+    <Button
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/go"
+        android:onClick="goNext"/>
+</LinearLayout>
