@@ -5,6 +5,7 @@ import android.os.Build;
 import android.os.Bundle;
 import android.support.annotation.RequiresApi;
 import android.support.v7.app.AppCompatActivity;
+import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
@@ -37,6 +38,9 @@ public class RolesActivity extends AppCompatActivity implements View.OnClickList
         mBtForWorker.setOnClickListener(this);
         mBtForEmployer = (Button)findViewById(R.id.bt_for_employer);
         mBtForEmployer.setOnClickListener(this);
+
+        Toolbar mActionBarToolbar = (Toolbar) findViewById(R.id.toolbar_actionbar);
+        setSupportActionBar(mActionBarToolbar);
 
         //mActionBar.show();
 

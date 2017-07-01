@@ -50,6 +50,8 @@ public class ParsedJsonUtils implements OnLoadComplite{
         myAsyncTask.setOnLoadComplite(this);
         myAsyncTask.getAllData();
 
+        Log.e("@@@@@@", "ParsedJsonUtils: " + myAsyncTask.toString());
+
     }
 
     public static ParsedJsonUtils getInstance(Context context) {
@@ -83,7 +85,7 @@ public class ParsedJsonUtils implements OnLoadComplite{
                     JSONArray agencies = dataJsonObj.getJSONArray("agencies");
 
                     // 2. перебираем и выводим необходимые данные
-                    for (int i = 10; i < agencies.length(); i++) {
+                    for (int i = 0; i < agencies.length(); i++) {
                         JSONObject agent = agencies.getJSONObject(i);
 
                         nameAgency.add(agent.getString("name"));

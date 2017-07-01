@@ -9,4 +9,10 @@
     <color name="top_right_quadrant">#f8e50f</color>
     <color name="bottom_left_quadrant">#d5d218</color>
     <color name="bottom_right_quadrant">#fffb00</color>
+    <color name="firm_color_black">#2b2a29</color>
+    <color name="firm_color_orange">#db5505</color>
+    <color name="fon_color_grey">#ebecec</color>
+    <color name="fom_color_orange">#f39545</color>
+    <color name="text_color_black">#727271</color>
+    <color name="text_color_orange">#db5505</color>
 </resources>
